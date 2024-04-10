@@ -1,0 +1,44 @@
+/* Navbar.css */
+
+/* Styles for the navbar */
+.navbar {
+    background-color: #fff; /* White background color */
+    color: #000; /* Black text color */
+    padding: 5px 10px; /* Adjust vertical and horizontal padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items with space-between */
+    align-items: center; /* Center items vertically */
+}
+
+/* Styles for the logo container */
+.logo-container {
+    padding: 5px; /* Add padding around the logo */
+}
+
+/* Styles for the logo image */
+.logo {
+    width: 40px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for the title container */
+.title-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+/* Styles for the navbar brand text */
+.navbar-brand {
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Styles for the title text */
+.title {
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
+    font-size: 16px; /* Adjust font size as needed */
+    margin-left: 10px; /* Add left margin to separate from logo */
+    color: #000; /* Black text color */
+}

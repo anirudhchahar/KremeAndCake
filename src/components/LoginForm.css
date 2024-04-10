@@ -1,0 +1,128 @@
+/* LoginForm.css */
+
+/* Import the background image */
+.login-container {
+    background-image: url('../components/background.png'); /* Path to your background image */
+    background-size: 100% auto; /* Ensure the background image covers the entire container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center top;
+    min-height: calc(100vh - 60px); /* Set minimum height to fill the viewport */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+  }
+  
+  .login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(244, 244, 244, 0.2); /* RGBA color with reduced opacity */
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Other styles for your form elements */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-login button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } 
+  
+  .google-btn {
+    background-color: #DB4437;
+    color: #fff;
+  }
+  
+  .facebook-btn {
+    background-color: #3b5998;
+    color: #fff;
+  }
+  
+  .apple-btn {
+    background-color: #000;
+    color: #fff;
+    background-image: url('../components/apple-logo.png');
+    background-repeat: no-repeat;
+    background-position: 10px center; /* Adjust the position of the logo */
+    padding-left: 40px; /* Add padding for the logo */
+  }
+  
+  .social-login button:hover {
+    filter: brightness(0.8); /* Darken the button color on hover */
+  }
+  
+  .separator {
+    text-align: center;
+    margin: 20px 0;
+    color: #888;
+    font-weight: bold;
+    position: relative; /* Ensure positioning context for the lines */
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%; /* Adjust the width of the lines */
+    height: 1px; /* Height of the lines */
+    background-color: #ccc; /* Color of the lines */
+  }
+  
+  .separator::before {
+    left: 0;
+  }
+  
+  .separator::after {
+    right: 0;
+  }
+  
+  .line-before,
+  .line-after {
+    width: 50%; /* Adjust the width as needed */
+    height: 0px; /* Set the height of the lines */
+    background-color: black; /* Line color */
+    margin: 10px 0; /* Add margin top and bottom for spacing */
+  }
+  
